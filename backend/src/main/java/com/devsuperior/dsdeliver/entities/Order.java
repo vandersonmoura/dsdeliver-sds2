@@ -106,6 +106,11 @@ public class Order implements Serializable {
 	public static long getSerialversionuid() {
 		return serialVersionUID;
 	}
+	
+
+	public Set<Product> getProducts() {
+		return products;
+	}
 
 	@Override
 	public int hashCode() {
